@@ -40,4 +40,9 @@ jobs:
         # For example, if your sitemap is at https://www.example.com/sitemap.xml
         # the final command run would be:
         # `curl http://www.google.com/ping?sitemap=https://www.example.com/sitemap.xml`
-        run: curl http://www.google.com/ping?sitemap=https://avipars.github.io/sitemap.xml
+        #run: curl http://www.google.com/ping?sitemap=https://avipars.github.io/sitemap.xml
+        run: |  
+          curl http://www.google.com/ping?sitemap=https://avipars.github.io/sitemap.xml
+          curl https://www.bing.com/ping?sitemap=https://avipars.github.io/sitemap.xml
+          curl https://webmaster.yandex.ru/ping?sitemap=https://avipars.github.io/sitemap.xml
+        
