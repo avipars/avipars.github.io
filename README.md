@@ -6,6 +6,6 @@ https://avipars.github.io
 
 
 
-Auto-redirects to my HP in 7 seconds with HTML only
-
 Main site for aviparshan.com - side projects and ideas
+
+This is mainly used because I have other sub-projects and don't want anything to get out of hand... unfortunately there is no good way to do redirection via github pages besides making an html file with a tag to auto-redirect ;( 
