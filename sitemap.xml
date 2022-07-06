@@ -1,61 +1,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://www.avipars.github.io/</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
-<url>
-<loc>https://www.avipars.github.io/hebrew_iframe/index.html</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
-
- <url>
-    <loc>https://www.avipars.github.io/BookClub/billgates2021.html</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
   <url>
-    <loc>https://www.avipars.github.io/BookClub/obama2021.html</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
+    <loc>https://www.avipars.github.io/</loc>
+    <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
   <url>
-    <loc>https://www.avipars.github.io/BookClub/index.html</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
-   <url>
-    <loc>https://www.avipars.github.io/BookClub/</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
-   <url>
-    <loc>https://www.avipars.github.io/WordleOSS/index.html 
-</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
-   <url>
-    <loc>https://avipars.github.io/CS-Resources/</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
-   <url>
-    <loc>https://avipars.github.io/CS-Resources/DigitalSystems/</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
-   <url>
-    <loc>https://avipars.github.io/CS-Resources/mips</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
-   <url>
-    <loc>https://avipars.github.io/CS-Resources/coding</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
-   <url>
-    <loc>https://avipars.github.io/CS-Resources/cpp_workshop</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
-   <url>
-    <loc>https://avipars.github.io/CS-Resources/math</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
-   <url>
-    <loc>https://avipars.github.io/CS-Resources/mips/notes.html</loc>
-<lastmod>2022-07-06T14:27:37Z</lastmod>
-</url>
+    <loc>https://www.avipars.github.io/hebrew_iframe/index.html</loc>
+    <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
+    <url>
+    <loc>https://www.avipars.github.io/taxiapp</loc>
+    <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
+  <url>
+      <loc>https://www.avipars.github.io/BookClub/billgates2021.html</loc>
+      <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
+    <url>
+      <loc>https://www.avipars.github.io/BookClub/obama2021.html</loc>
+      <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
+    <url>
+      <loc>https://www.avipars.github.io/BookClub/index.html</loc>
+      <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
+    <url>
+      <loc>https://www.avipars.github.io/BookClub/</loc>
+      <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
+    <url>
+      <loc>https://www.avipars.github.io/WordleOSS/index.html</loc>
+      <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
+    <url>
+      <loc>https://avipars.github.io/CS-Resources/</loc>
+      <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
+    <url>
+      <loc>https://avipars.github.io/CS-Resources/DigitalSystems/</loc>
+      <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
+    <url>
+      <loc>https://avipars.github.io/CS-Resources/mips</loc>
+      <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
+    <url>
+      <loc>https://avipars.github.io/CS-Resources/coding</loc>
+      <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
+    <url>
+      <loc>https://avipars.github.io/CS-Resources/cpp_workshop</loc>
+      <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
+    <url>
+      <loc>https://avipars.github.io/CS-Resources/math</loc>
+      <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
+    <url>
+      <loc>https://avipars.github.io/CS-Resources/mips/notes.html</loc>
+      <lastmod>2022-07-06T14:24:52Z</lastmod>
+  </url>
 </urlset>
-

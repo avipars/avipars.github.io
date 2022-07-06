@@ -1,1 +1,7 @@
-p { font-family: Arial; }
+* {
+    font: Verdana, Arial, 'sans-serif' !important;/* <-- fonts */
+}
+
+/* body{
+
+} */
