@@ -1,7 +1,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
 <loc>https://www.avipars.github.io/</loc>
-<lastmod>2022-04-16T06:49+00:00</lastmod>
+<lastmod>2022-07-06T06:49+00:00</lastmod>
 </url>
 <url>
 <loc>https://www.avipars.github.io/hebrew_iframe/index.html</loc>
@@ -36,10 +36,18 @@
 </url>
    <url>
     <loc>https://avipars.github.io/CS-Resources/DigitalSystems/</loc>
-<lastmod>2022-07-066:49+00:00</lastmod>
+<lastmod>2022-07-06T6:49+00:00</lastmod>
 </url>
    <url>
-    <loc>https://avipars.github.io/CS-Resources/mipsloc>
-<lastmod>2022-07-066:49+00:00</lastmod>
+    <loc>https://avipars.github.io/CS-Resources/mips</loc>
+<lastmod>2022-07-06T6:49+00:00</lastmod>
+</url>
+   <url>
+    <loc>https://avipars.github.io/CS-Resources/coding</loc>
+<lastmod>2022-07-06T6:49+00:00</lastmod>
+</url>
+   <url>
+    <loc>https://avipars.github.io/CS-Resources/cpp_workshop</loc>
+<lastmod>2022-07-06T6:49+00:00</lastmod>
 </url>
 </urlset>
