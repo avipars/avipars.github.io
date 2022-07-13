@@ -1,7 +1,3 @@
-* {
-    font: Verdana, Arial, 'sans-serif' !important;/* <-- fonts */
+body {
+  font-family: Arial, sans-serif;
 }
-
-/* body{
-
-} */
