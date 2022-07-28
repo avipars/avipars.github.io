@@ -1,66 +1,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.avipars.github.io/</loc>
-    <lastmod>2022-07-06T14:24:52Z</lastmod>
+    <lastmod>2022-07-28T14:24:52Z</lastmod>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.avipars.github.io/hebrew_iframe/index.html</loc>
-    <lastmod>2022-07-06T14:24:52Z</lastmod>
+     <lastmod>2022-07-28T14:24:52Z</lastmod>
+        <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
     <url>
     <loc>https://www.avipars.github.io/taxiapp</loc>
-    <lastmod>2022-07-06T14:24:52Z</lastmod>
+     <lastmod>2022-07-28T14:24:52Z</lastmod>
+        <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
       <loc>https://www.avipars.github.io/BookClub/billgates2021.html</loc>
-      <lastmod>2022-07-06T14:24:52Z</lastmod>
+      <lastmod>2022-07-28T14:24:52Z</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
     <url>
       <loc>https://www.avipars.github.io/BookClub/obama2021.html</loc>
-      <lastmod>2022-07-06T14:24:52Z</lastmod>
+      <lastmod>2022-07-28T14:24:52Z</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
     <url>
       <loc>https://www.avipars.github.io/BookClub/index.html</loc>
-      <lastmod>2022-07-06T14:24:52Z</lastmod>
+    <lastmod>2022-07-28T14:24:52Z</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
     <url>
       <loc>https://www.avipars.github.io/BookClub/</loc>
-      <lastmod>2022-07-06T14:24:52Z</lastmod>
+   <lastmod>2022-07-28T14:24:52Z</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
     <url>
       <loc>https://www.avipars.github.io/WordleOSS/index.html</loc>
-      <lastmod>2022-07-06T14:24:52Z</lastmod>
+ <lastmod>2022-07-28T14:24:52Z</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
     <url>
       <loc>https://avipars.github.io/CS-Resources/</loc>
-      <lastmod>2022-07-06T14:24:52Z</lastmod>
+     <lastmod>2022-07-28T14:24:52Z</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
     <url>
       <loc>https://avipars.github.io/CS-Resources/DigitalSystems/</loc>
-      <lastmod>2022-07-06T14:24:52Z</lastmod>
+    <lastmod>2022-07-28T14:24:52Z</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
     <url>
       <loc>https://avipars.github.io/CS-Resources/mips</loc>
-      <lastmod>2022-07-06T14:24:52Z</lastmod>
+     <lastmod>2022-07-28T14:24:52Z</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
     <url>
       <loc>https://avipars.github.io/CS-Resources/intro_cs</loc>
-      <lastmod>2022-07-23T14:24:52Z</lastmod>
+     <lastmod>2022-07-28T14:24:52Z</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
     <url>
       <loc>https://avipars.github.io/CS-Resources/cpp_workshop</loc>
-      <lastmod>2022-07-23T14:24:52Z</lastmod>
+    <lastmod>2022-07-28T14:24:52Z</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
     <url>
       <loc>https://avipars.github.io/CS-Resources/cpp_workshop/Exam_2022/</loc>
-      <lastmod>2022-07-23T14:24:52Z</lastmod>
+      <lastmod>2022-07-28T14:24:52Z</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
     <url>
       <loc>https://avipars.github.io/CS-Resources/math</loc>
-      <lastmod>2022-07-06T14:24:52Z</lastmod>
+     <lastmod>2022-07-28T14:24:52Z</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
     <url>
       <loc>https://avipars.github.io/CS-Resources/mips/notes</loc>
-      <lastmod>2022-07-06T14:24:52Z</lastmod>
+      <lastmod>2022-07-28T14:24:52Z</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
 </urlset>
