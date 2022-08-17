@@ -5,4 +5,6 @@ Disallow: /siteswapordle/
 Disallow: /wurdle$
 Disallow: /wordleoss$
 
+Noindex:  /404.html
+
 Sitemap: https://www.avipars.github.io/sitemap.xml
