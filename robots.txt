@@ -4,7 +4,8 @@ Disallow: /siteswaple/
 Disallow: /siteswapordle/
 Disallow: /wurdle$
 Disallow: /wordleoss$
+Disallow: /drivers_ed/db/*
 
 Noindex:  /404.html
 
-Sitemap: https://www.avipars.github.io/sitemap.xml
+Sitemap: https://www.avi.is-a.dev/sitemap.xml
