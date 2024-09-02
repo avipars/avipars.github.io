@@ -65,4 +65,9 @@
           <priority>1.0</priority>
     <changefreq>monthly</changefreq>
   </url>
+        <loc>https://avi.is-a.dev/drivers_ed</loc>
+ <lastmod>2024-09-02</lastmod>
+          <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
