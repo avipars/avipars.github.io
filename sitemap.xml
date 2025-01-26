@@ -12,6 +12,12 @@
 		<priority>1.0</priority>
 		<changefreq>monthly</changefreq>
 	</url>
+		<url>
+		<loc>https://avi.is-a.dev/dashboard/</loc>
+		<lastmod>2025-26-01</lastmod>
+		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+	</url>
 	<url>
 		<loc>https://avi.is-a.dev/web_calculator/discrete/choice.html</loc>
 		<lastmod>2024-04-08T11:24:52Z</lastmod>
