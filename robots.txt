@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /siteswaple/
+Disallow: /siteswapordle/
+Disallow: /wurdle$
+Disallow: /wordleoss$
+Disallow: /drivers_ed/db/*
+
+Noindex:  /404.html
+
+Sitemap: https://www.avi.is-a.dev/sitemap.xml
