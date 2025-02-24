@@ -14,8 +14,14 @@
 	</url>
 	<url>
 		<loc>https://avi.is-a.dev/web_calculator/</loc>
-		<lastmod>2025-02-19</lastmod>
+		<lastmod>2025-02-24</lastmod>
 		<priority>0.9</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+		<url>
+		<loc>https://avi.is-a.dev/web_calculator/trigonometry/angle.html</loc>
+		<lastmod>2025-02-24</lastmod>
+		<priority>0.8</priority>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -27,49 +33,49 @@
 	<url>
 		<loc>https://avi.is-a.dev/web_calculator/comms/packets.html</loc>
 		<lastmod>2025-02-19</lastmod>
-		<priority>0.8</priority>
+		<priority>0.9</priority>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://avi.is-a.dev/web_calculator/discrete/choice.html</loc>
 		<lastmod>2025-02-19</lastmod>
-		<priority>0.8</priority>
+		<priority>0.9</priority>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://avi.is-a.dev/web_calculator/dsa/master.html</loc>
 		<lastmod>2025-02-19</lastmod>
-		<priority>0.8</priority>
+		<priority>0.7</priority>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://avi.is-a.dev/web_calculator/logic/truth.html</loc>
 		<lastmod>2025-02-19</lastmod>
-		<priority>0.8</priority>
+		<priority>0.9</priority>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://avi.is-a.dev/web_calculator/comms/data.html</loc>
 		<lastmod>2025-02-19</lastmod>
-		<priority>0.8</priority>
+		<priority>0.9</priority>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://avi.is-a.dev/web_calculator/dsa/mod.html</loc>
 		<lastmod>2025-02-19</lastmod>
-		<priority>0.8</priority>
+		<priority>0.9</priority>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://avi.is-a.dev/web_calculator/discrete/multi.html</loc>
 		<lastmod>2025-02-19</lastmod>
-		<priority>0.8</priority>
+		<priority>0.9</priority>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://avi.is-a.dev/web_calculator/dsa/btree.html</loc>
 		<lastmod>2025-02-19</lastmod>
-		<priority>0.8</priority>
+		<priority>0.7</priority>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
@@ -116,19 +122,19 @@
 	</url>
 	<url>
 		<loc>https://avi.is-a.dev/drivers_ed/</loc>
-		<lastmod>2024-09-02</lastmod>
+		<lastmod>2025-02-24</lastmod>
 		<priority>1.0</priority>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://avi.is-a.dev/drivers_ed/driving.html</loc>
-		<lastmod>2024-10-02</lastmod>
+		<lastmod>2025-02-24</lastmod>
 		<priority>1.0</priority>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
 		<loc>https://avi.is-a.dev/drivers_ed/signs.html</loc>
-		<lastmod>2024-10-02</lastmod>
+		<lastmod>2025-02-24</lastmod>
 		<priority>1.0</priority>
 		<changefreq>monthly</changefreq>
 	</url>
