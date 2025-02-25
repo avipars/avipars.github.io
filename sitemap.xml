@@ -18,9 +18,15 @@
 		<priority>0.9</priority>
 		<changefreq>monthly</changefreq>
 	</url>
-		<url>
+	<url>
 		<loc>https://avi.is-a.dev/web_calculator/trigonometry/angle.html</loc>
 		<lastmod>2025-02-24</lastmod>
+		<priority>0.8</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://avi.is-a.dev/web_calculator/general/exam.html</loc>
+		<lastmod>2025-02-25</lastmod>
 		<priority>0.8</priority>
 		<changefreq>monthly</changefreq>
 	</url>
