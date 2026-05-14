@@ -290,7 +290,7 @@
                     coordsEl.innerText = `Row: ${r}, Col: ${c}`;
                 };
                 cell.onmouseout = () => {
-                    coordsEl.innerText = `Hover over a cell...`;
+                    coordsEl.innerText = `Lights Out (Beta)`;
                 };
                 cell.onclick = () => handleCellClick(r, c);
 
@@ -308,8 +308,6 @@
         if (showSolution && optimalPressVector) {
             if (optimalPressVector[idx] === 0) {
                 alert("Warning: That piece is not part of the optimal solution!");
-                // Note: If you want to PREVENT them from making the wrong move entirely, 
-                // you can uncomment the `return;` below. 
                 return;
             }
         }
