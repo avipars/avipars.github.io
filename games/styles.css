@@ -1,0 +1,154 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0f0f11;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 1rem;
+        }
+
+        /* ── Main page title ── */
+        .page-title {
+            font-size: clamp(2.2rem, 6vw, 3.5rem);
+            font-weight: 800;
+            color: #c084fc;
+            text-align: center;
+            margin-bottom: 0.25rem;
+            text-shadow: 0 0 18px rgba(192, 132, 252, 0.5);
+        }
+
+        .subtitle {
+            color: #8888a0;
+            font-size: 1rem;
+            font-weight: 400;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        /* ── Games list ── */
+        .games-list {
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+            width: 100%;
+            max-width: 500px;
+            flex: 1;
+        }
+
+        /* ── Each game entry ── */
+        .game-entry {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        /* ── The cute clickable box (title inside) ── */
+        .game-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            width: 100%;
+            max-width: 300px;
+            padding: 1.2rem 1.5rem;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #3b2b5c, #1f1a2e);
+            border: 2px solid #5a4a7a;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+            transition: all 0.25s ease;
+            color: #f5f0ff;
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            cursor: pointer;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            position: relative;
+
+        }
+
+        .game-box:hover {
+            transform: translateY(-4px);
+            border-color: #b794f4;
+            box-shadow: 0 10px 25px rgba(139, 92, 246, 0.3);
+            background: linear-gradient(135deg, #4a366b, #2a2038);
+        }
+
+        .game-box:active {
+            transform: scale(0.97);
+        }
+
+          /* ── Coming soon box (non-clickable) ── */
+        .game-box.coming-soon {
+            cursor: default;
+            background: linear-gradient(135deg, #2a2a35, #1a1a22);
+            border-color: #3f3f50;
+            color: #aaaacc;
+            text-shadow: none;
+        }
+
+        .game-box.coming-soon:hover {
+            transform: none;
+            border-color: #3f3f50;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+            background: linear-gradient(135deg, #2a2a35, #1a1a22);
+        }
+
+        .soon-badge {
+            font-size: 0.65rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #ffd966;
+            background: #3e3e4a;
+            padding: 0.15rem 0.5rem;
+            border-radius: 12px;
+            margin-left: 0.75rem;
+            white-space: nowrap;
+        }
+
+        /* Optional icon inside the box (if you like) */
+        .game-icon {
+            margin-right: 0.5rem;
+            font-size: 1.5rem;
+        }
+
+        /* ── Description below the box ── */
+        .game-desc {
+            font-size: 0.9rem;
+            color: #b0b0c0;
+            text-align: center;
+            max-width: 300px;
+            line-height: 1.4;
+        }
+
+        /* ── Footer ── */
+        .footer {
+            margin-top: 3.5rem;
+            padding: 1.2rem 0;
+            text-align: center;
+            color: #5a5a70;
+            font-size: 0.82rem;
+            border-top: 1px solid #1e1e2a;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        @media (max-width: 500px) {
+            .game-box {
+                max-width: 100%;
+            }
+             .soon-badge {
+                margin-left: 0.4rem;
+            }
+        }

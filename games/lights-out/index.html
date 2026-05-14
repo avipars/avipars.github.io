@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="index, follow">
+    <meta property="og:image" content="icons/mainpreview.jpg" />
+    <meta property="og:title" content="Lights Out - visual game with AI" />
+    <meta name="description" content="Play the famous Lights Out Game and test your strategy" />
+
+    <meta name="description" property="og:description"
+        content="Play the famous Lights Out Game and test your strategy" />
+
+    <script data-goatcounter="https://avigit.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <link rel="icon" type="image/ico" href="https://www.aviparshan.com/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="https://www.aviparshan.com/israeldeals/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://www.aviparshan.com/israeldeals/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://www.aviparshan.com/israeldeals/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://www.aviparshan.com/israeldeals/icons/site.webmanifest">
+
+
+    <title>Lights Out - visual game with AI</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="stats-container">
+        <div id="coords">Hover over a cell...</div>
+        <div class="stats">
+            <div id="moves">Moves: 0</div>
+            <div id="timer">Time: 0:00</div>
+            <div id="optimal">Optimal: ?</div>
+        </div>
+    </div>
+
+    <div id="game-board"></div>
+
+    <div class="controls">
+        <div class="control-group">
+            <h3>Random Board</h3>
+            <div style="font-size: 0.9rem;">
+                Size: <input type="number" id="grid-size" value="3" min="1" max="15" style="width: 50px; padding: 3px;">
+                (max 15)
+            </div>
+            <button class="alt" onclick="genRandomGrid(true)" style="background-color: #049c32;">New Solvable
+                Random</button>
+            <button class="alt" onclick="genRandomGrid(false)" style="background-color: #0728e9;">New Random</button>
+
+            <button class="reset-btn" onclick="resetCurrent()">Restart This Level</button>
+        </div>
+
+        <div class="control-group" style="border-left: 1px solid #eee; padding-left: 20px;">
+            <h3>Manual Input (0/1)</h3>
+            <textarea id="custom-input"
+                placeholder="[[1, 0, 0, 0], [0, 0, 1, 0], [1, 0, 0, 0], [0, 0, 1, 1]]"></textarea>
+            <button onclick="loadCustom()">Load State</button>
+        </div>
+
+        <div class="control-group" style="border-left: 1px solid #eee; padding-left: 20px;">
+            <h3>Solution</h3>
+            <button class="solution-btn" onclick="toggleOptimalSolution()" id="solutionToggleBtn">🔍 Show
+                Solution</button>
+        </div>
+
+        <div class="control-group" style="border-left: 1px solid #eee; padding-left: 20px;">
+            <h3>Other</h3>
+            <button onclick="toggleDarkMode()" style="background-color: #6c757d;">🌙 Toggle Dark Mode</button>
+            <button onclick="window.open('https://www.aviparshan.com/support.html?utm_source=lightsout', '_blank')"
+                style="background-color: #ff7a00; margin-top: 8px;">❤️ Support Me</button>
+        </div>
+
+    </div>
+
+    <footer style="text-align: center; margin: 24px 0 12px; font-size: 0.9rem; color: #666;">
+        &copy; <span id="current-year"></span> <a href="https://www.aviparshan.com?utm_source=lightsout" target="_blank"
+            rel="noopener noreferrer">aviparshan.com</a>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

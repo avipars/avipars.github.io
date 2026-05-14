@@ -1,0 +1,240 @@
+   * {
+       transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s;
+   }
+
+   body {
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 30px;
+       background-color: #f4f4f9;
+       color: #333;
+   }
+
+   /* DARK MODE styles (applied via .dark-mode on body) */
+   body.dark-mode {
+       background-color: #1e1e2f;
+       color: #e0e0e0;
+   }
+
+   body.dark-mode .stats,
+   body.dark-mode .controls {
+       background-color: #2a2a3c;
+       color: #eee;
+       border-color: #444;
+       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+   }
+
+   body.dark-mode .stats div,
+   body.dark-mode .controls div,
+   body.dark-mode h3 {
+       color: #ccc;
+   }
+
+   body.dark-mode #coords {
+       color: #80b4ff;
+   }
+
+   body.dark-mode .cell {
+       background-color: #3a3a4e;
+   }
+
+   body.dark-mode .cell.on {
+       background-color: #ffb74d;
+       box-shadow: 0 0 18px #ffa726;
+   }
+
+   body.dark-mode button {
+       background-color: #3b4b6e;
+       color: white;
+   }
+
+   body.dark-mode button.alt {
+       background-color: #2e7d5e;
+   }
+
+   body.dark-mode button.solution-btn {
+       background-color: #9c27b0;
+   }
+
+   body.dark-mode button.reset-btn {
+
+       background-color: #eb3305;
+   }
+
+   body.dark-mode textarea {
+       background-color: #2a2a3c;
+       color: #ddd;
+       border-color: #555;
+   }
+
+   body.dark-mode input[type=number] {
+       background-color: #2a2a3c;
+       color: #ddd;
+       border-color: #555;
+   }
+
+   .stats-container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 10px;
+       margin-bottom: 20px;
+   }
+
+   .stats {
+       display: flex;
+       gap: 30px;
+       font-size: 1.2rem;
+       background: #fff;
+       padding: 12px 30px;
+       border-radius: 50px;
+       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+
+   #coords {
+       font-weight: bold;
+       color: #007bff;
+       min-height: 1.2em;
+       font-size: 1rem;
+       background: rgba(255, 255, 255, 0.6);
+       padding: 5px 18px;
+       border-radius: 30px;
+       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+   }
+
+   body.dark-mode #coords {
+       background: #2a2a3c;
+   }
+
+   #game-board {
+       display: grid;
+       gap: 5px;
+       background-color: #444;
+       padding: 8px;
+       border-radius: 8px;
+       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+       margin-bottom: 25px;
+   }
+
+   .cell {
+       width: 50px;
+       height: 50px;
+       background-color: #666;
+       border-radius: 4px;
+       cursor: pointer;
+       transition: transform 0.1s, background-color 0.2s, filter 0.2s, outline 0.1s;
+       position: relative;
+   }
+
+   .cell:hover {
+       transform: scale(1.05);
+       filter: brightness(1.2);
+       border: 2px solid #fff;
+       box-sizing: border-box;
+   }
+
+   .cell.on {
+       background-color: #ffeb3b;
+       box-shadow: 0 0 15px rgba(255, 235, 59, 0.5);
+   }
+
+   /* optimal press highlight – a glowing ring */
+   .cell.optimal-press {
+       outline: 4px solid #00aaff;
+       outline-offset: 0px;
+       filter: drop-shadow(0 0 6px #00aaff);
+       z-index: 2;
+   }
+
+   body.dark-mode .cell.optimal-press {
+       outline-color: #80deea;
+   }
+
+   /* ensure both on and optimal visible */
+   .cell.on.optimal-press {
+       outline: 4px solid #0044ff;
+       outline-offset: 0px;
+   }
+
+   .controls {
+       display: flex;
+       gap: 20px;
+       background: white;
+       padding: 20px;
+       border-radius: 12px;
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+
+   .control-group {
+       display: flex;
+       flex-direction: column;
+       gap: 12px;
+       min-width: 160px;
+   }
+
+   textarea {
+       width: 140px;
+       height: 80px;
+       font-family: 'Courier New', Courier, monospace;
+       font-size: 14px;
+       padding: 5px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       resize: vertical;
+   }
+
+   button {
+       padding: 10px 15px;
+       cursor: pointer;
+       border: none;
+       border-radius: 6px;
+       background-color: #007bff;
+       color: white;
+       font-weight: 600;
+       transition: opacity 0.2s, background-color 0.2s;
+       white-space: nowrap;
+   }
+
+   button:hover {
+       opacity: 0.5;
+   }
+
+   button.alt {
+       background-color: #28a745;
+   }
+
+   button.solution-btn {
+       background-color: #9c27b0;
+   }
+
+   button.reset-btn {
+       background-color: #eb3305;
+   }
+
+   /* purple for solution */
+   h3 {
+       margin: 0;
+       font-size: 0.9rem;
+       text-transform: uppercase;
+       letter-spacing: 1px;
+       color: #777;
+   }
+
+   .dark-mode h3 {
+       color: #aaa;
+   }
+
+   #optimal {
+       font-weight: 600;
+       color: #b45f06;
+   }
+
+   .dark-mode #optimal {
+       color: #ffb347;
+   }
